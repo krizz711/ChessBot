@@ -10,7 +10,7 @@ So I exported my own games from Chess.com using Linktree, and began working on a
 
 🔨 What I Did
 
-✅ Data Collection: Downloaded my personal gameplay data from Chess.com
+✅ Data Collection: Downloaded my personal gameplay data from Chess.com using linkedtree
 
 ✅ Data Processing: Converted each game into FEN positions (board state) and corresponding best move responses
 
@@ -41,6 +41,18 @@ Chess Engine: Stockfish
 Data Format: PGN → FEN
 
 GUI: PyQt5 / Qt for Python
+
+### ♟️ Stockfish Setup
+
+This project uses [Stockfish](https://stockfishchess.org/download/) to assist with move evaluation.
+
+🔧 **How to set it up:**
+
+1. Download the Stockfish binary for your OS from the [official site](https://stockfishchess.org/download/).
+2. Place the `stockfish` executable inside the project folder.
+3. Make sure your Python script points to the correct file path:
+   ```python
+   engine = chess.engine.SimpleEngine.popen_uci("stockfish")
 
 📁 Coming Soon
 
