@@ -9,6 +9,7 @@ While exploring Chess.com bots based on grandmasters and streamers, I wondered:
 So I exported my own games from Chess.com using Linktree, and began working on a bot that learns my move patterns and decision-making.
 
 🔨 What I Did
+
 ✅ Data Collection: Downloaded my personal gameplay data from Chess.com
 
 ✅ Data Processing: Converted each game into FEN positions (board state) and corresponding best move responses
@@ -20,6 +21,7 @@ So I exported my own games from Chess.com using Linktree, and began working on a
 ✅ Interface: Built a playable chess game GUI using Qt, where you can play against the trained bot
 
 🚀 Features
+
 Mimics your personal playstyle
 
 Learns from real game data
@@ -29,6 +31,7 @@ Hybrid decision-making: combines ML predictions with Stockfish
 Graphical interface for playing directly against your own AI
 
 🧰 Tech Stack
+
 Language: Python
 
 ML Model: Random Forest Regression (via Scikit-learn)
@@ -40,6 +43,7 @@ Data Format: PGN → FEN
 GUI: PyQt5 / Qt for Python
 
 📁 Coming Soon
+
 Adjustable difficulty using model confidence
 
 Side-by-side comparison with Stockfish-only bot
